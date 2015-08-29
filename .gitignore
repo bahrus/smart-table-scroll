@@ -10,3 +10,5 @@ npm-debug.log
 # VIM is awesome
 *.swo
 *.swp
+/temp
+/logs
