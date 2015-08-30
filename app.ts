@@ -4,8 +4,12 @@
 //
 //
 // Demo of SmartTableScroll
+///<reference path='Scripts/typings/lodash/lodash.d.ts'/>
+
+//declare var SmartTableScroll;
+declare var ScrollableTable;
 var noOfCols = 2;
-var table = window.table = new SmartTableScroll({
+var table = window['table'] = new ScrollableTable({
 
     //
     el: document.querySelector('#table-target'),
@@ -40,7 +44,7 @@ var table = window.table = new SmartTableScroll({
         node.innerHTML = inner;
 
 
-        node.childNodes[1].style.color = rowData.color;
+        node.childNodes[1]['style'].color = rowData.color;
         return node;
     },
 

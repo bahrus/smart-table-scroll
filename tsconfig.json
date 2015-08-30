@@ -1,11 +1,9 @@
 {
 	"compilerOptions": {
 		"target": "ES5",
-		"module": "commonjs",
 		"sourceMap": true
 	},
 	"files": [
-    	"smart-table-scroll.ts",
 		"app.ts"
   	]
 }

@@ -24,7 +24,8 @@
 "use strict";
 
 //
-var _sortedIndex = require('lodash.sortedindex');
+//var _sortedIndex = require('lodash.sortedindex');
+var _sortedIndex = _.sortedIndex;
 
 //
 var defaults = {
@@ -132,4 +133,7 @@ ScrollableTable.prototype.setHeights = function() {
 };
 
 //
-module.exports = ScrollableTable;
+if(typeof module !== 'undefined'){
+  module.exports = ScrollableTable;
+}
+
