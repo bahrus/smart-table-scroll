@@ -5,6 +5,7 @@
 //
 // Demo of SmartTableScroll
 ///<reference path='Scripts/typings/lodash/lodash.d.ts'/>
+//declare var SmartTableScroll;
 var noOfCols = 2;
 var table = window['table'] = new ScrollableTable({
     //
